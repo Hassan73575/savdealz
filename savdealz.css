@@ -69,3 +69,9 @@ p1{
     color: white;
     width: 120;   
 }
+.card-body{
+    display:flex;
+    justify-content: center;
+    align-item:center;
+    gap:10px;
+}
