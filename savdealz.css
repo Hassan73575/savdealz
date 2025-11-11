@@ -49,10 +49,13 @@ p1{
     letter-spacing: 1px;
     /* line-height: 1.6; */
 }
+.container1{
+    padding: 20px;
+}
 .buttons{
     display: flex;
     gap: 10px;
-    margin-left: -30px;
+    margin-left: 30px;
 }
 .btn1{
     background-color: #003e6b;
@@ -67,11 +70,108 @@ p1{
 .btn3{
     background-color: #3eb442;
     color: white;
-    width: 120;   
 }
 .card-body{
-    display:flex;
-    justify-content: center;
-    align-item:center;
-    gap:10px;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 0.7rem;
+    gap: 12px;
+    height: 200px;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); */
+    width: auto;
+    padding: 5px 10px;
+    height: 200px;
+    box-shadow: rgb(0 0 0 / 16%) 0 1px 4px;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    gap: 10px;
+    margin: 7px;
+
+}   
+.card-heading{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 2fr));
+    gap: 0px;
+    margin-top: 10px;
+    width: 100%;
+}
+.card-btn{
+    width: 150px;
+    background-color: #1771bf;
+    color: white;
+}
+footer{
+    background-color: white;
+    padding: 20px 0;
+    margin-top: 30px;
+
+}
+.sub-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;    
+    width: 53%;
+    font-size: 14px;
+}
+.footer-heading{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.footer-name{
+    font-weight: bold;
+}
+.footer-name a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 2rem;
+}
+.footer-para{
+    color: #b6b9bf;
+}
+.sub-footer2{
+    display: flex;
+    justify-content: space-between;
+}
+.made-by{
+    color: #b6b9bf;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+    .header{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .card-body {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 15px;
+    }
 }
