@@ -2,22 +2,29 @@
   "sitedata": [
     {
       "id": 1,
-      "meta_title": "bhetreen  in Gulshan-e-Maymar",
+      "meta_title": "Grab 20% Off on Every Purchase – Limited Time Only",
       "meta_discription":"Take 20% Off on All Products storewide",
       "code": 2500000,
       "image":"petes_real_food_logo.png"
     },
     {
       "id": 2,
-      "meta_title": "Haunted House in Gulshan-e-Maymar",
+      "meta_title": "Save 15% Off All Sitewide",
+      "meta_discription":"Save 15% off sitewide at Petes Real Food",
+      "code": 2500000,
+      "image":"petes_real_food_logo.png"
+    },
+    {
+      "id": 3,
+      "meta_title": "Avail $15 discount on your Entire order",
       "meta_discription":"Take 20% Off on All Products storewide",
       "code": 2500000,
       "image":"petes_real_food_logo.png"
     },
     {
-      "id": 2,
-      "meta_title": "house in Gulshan-e-Maymar",
-      "meta_discription":"Take 20% Off on All Products storewide",
+      "id": 3,
+      "meta_title": "Get $10 Off Storewide Items",
+      "meta_discription":"Receive $10 off storewide purchases with this promo code",
       "code": 2500000,
       "image":"petes_real_food_logo.png"
     }
