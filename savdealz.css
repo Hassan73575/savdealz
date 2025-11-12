@@ -140,6 +140,7 @@ footer{
 .sub-footer2{
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .made-by{
     color: #b6b9bf;
